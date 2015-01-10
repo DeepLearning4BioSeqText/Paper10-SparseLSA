@@ -1,0 +1,34 @@
+Please run sparse_drive.m to test the demo of sparse LSA. 
+
+The main function to test algorithm: sparse_LSA.m 
+
+A_learning.m: learning sparse A matrix in Sparse LSA
+
+A_learning_nn.m: learning nonnegative sparse A matrix in sparse LSA (set by nn_tag)
+
+A_learning_group.m: learning sparse A matrix with group structure
+(set by group_tag)
+
+PROPACK is a fast implementation for SVD. If it does not work properly, one needs to mex the 
+files in PORPACK on his/her own machine. One should check the conditions of PROPACK
+(http://soi.stanford.edu/~rmunk/PROPACK/) for using or redistribution of it.
+
+The toy data 20ng_data is 20 news-group with the class 1 and 20 using tf-idf features. 
+
+Please cite the following paper if you use the code.
+@INPROCEEDINGS{sdm2011slsa,
+  author = {X. Chen and Y. Qi and B. Bai and Q. Lin and J.G. Carbonell },
+  title = {Sparse Latent Semantic Analysis},
+  booktitle = {SIAM International Conference on Data Mining (SDM)},
+  year = {2011},
+  bib2html_pubtype = {Refereed Conference},
+}
+
+For feedback, please contact: xichen@cs.cmu.edu.
+
+It is released as open source software.  Redistributions with or without modifications 
+are permitted but must retain the source and the above notice. 
+
+
+ 
+
